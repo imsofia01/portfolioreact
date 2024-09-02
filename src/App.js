@@ -1,24 +1,45 @@
-import logo from './logo.svg';
+import React, { useEffect, useState} from 'react';
 import './App.css';
+import './index.css';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import About from './components/About';
+import Skills from './components/Skills';
+
+
 
 function App() {
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+
+      if (scrollPosition > windowHeight * 0.1) {
+        setShowScroll(true);
+      } else {
+        setShowScroll(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+<>
+    <Navbar isScrolled={showScroll} />
+    <HeroSection/>
+    <About/>
+    <Skills/>
+  
+ 
+   </>
+    
+  
   );
 }
 

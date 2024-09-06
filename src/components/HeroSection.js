@@ -1,10 +1,9 @@
-
+import DarkMode from "./DarkMode";
 import LocationIcon from "./LocationIcon";
 
 
-
 const HeroSection = () => {
-    return(
+    return (
         <div className="w-full h-screen relative">
         <div class="w-full h-full xl:px-16 xs:px-8 flex gap-4 justify-center items-center">
         <div class="w-full m-10">
@@ -53,6 +52,6 @@ const HeroSection = () => {
         </div>
         </div>
     );
-}
+};
 
-export default HeroSection
+export default HeroSection;

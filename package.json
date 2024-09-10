@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@capacitor/app": "6.0.1",
+    "@capacitor/cli": "6.1.2",
+    "@capacitor/core": "6.1.2",
+    "@capacitor/haptics": "6.0.1",
+    "@capacitor/keyboard": "6.0.2",
+    "@capacitor/status-bar": "6.0.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run start"
   },
   "eslintConfig": {
     "extends": [

@@ -7,8 +7,11 @@ import DarkMode from './components/DarkMode';
 import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Skills from './components/Skills';
+import Education from './components/Education';
+
 
 function App() {
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
@@ -105,13 +108,25 @@ function App() {
               <li>
                 <ScrollLink
                   className="md:p-4 py-2 block cursor-pointer"
-                  to="work"
+                  to="skills"
                   smooth={true}
                   duration={500}
                   spy={true}
                   offset={-70}
                 >
-                  Work
+                  Skills
+                </ScrollLink>
+              </li>
+              <li>
+                <ScrollLink
+                  className="md:p-4 py-2 block cursor-pointer"
+                  to="education"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={-70}
+                >
+                  Education
                 </ScrollLink>
               </li>
               <li>
@@ -156,11 +171,14 @@ function App() {
       <div id="about">
         <About />
       </div>
-      <div id="work">
+      <div id="skills">
         <Skills />
       </div>
       <div id="contact">
         {/* Add Contact section here */}
+      </div>
+      <div id="education">
+        <Education/>
       </div>
     </>
   );

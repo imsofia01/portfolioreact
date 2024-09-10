@@ -3,24 +3,26 @@ import React, { useState, useEffect } from "react";
 export default function DarkMode() {
   const [darkMode, setDarkMode] = useState(false);
 
+  const handleDarkModeToggle = () => {
+    setDarkMode(!darkMode);
+  };
+
   useEffect(() => {
     if (darkMode) {
+      document.body.classList.add('dark');
       document.documentElement.classList.add("dark");
     } else {
+      document.body.classList.remove('dark');
       document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
 
   return (
     <li className="flex items-center justify-between py-2 md:py-0 md:px-4">
       
       <button
         className="text-gray-600 dark:text-gray-300 inline-flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-700 w-14 h-10 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-500 rounded-lg text-sm p-2.5 ml-2"
-        onClick={toggleDarkMode}
+        onClick={handleDarkModeToggle}
       >
         {darkMode ?  <svg
                   id="theme-toggle-light-icon"

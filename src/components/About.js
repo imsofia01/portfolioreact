@@ -3,7 +3,7 @@ import React from 'react';
 const AboutMe = () => {
   return (
     
-    <section className=" flex flex-col md:flex-row items-center p-6 md:p-12 md:mt-20"> 
+    <section className=" flex flex-col md:flex-row items-center p-6 md:p-12"> 
       <div className="md:w-1/3 mb-6 md:mb-0 max-md:mr-24">
       
         <img
@@ -13,9 +13,12 @@ const AboutMe = () => {
         />
       </div>
 
-      <div className="md:w-2/3 md:pl-20 text-center md:text-left">
+      <div className="md:w-2/3 md:pl-20 mb-4 text-center md:text-left">
       
-        <h2 className="text-3xl font-bold mb-4 text-gray-900">About me</h2>
+      <div className="text-center mb-10">
+      <span className="bg-gray-200 px-3 py-1 text-[1.1rem] text-gray-600 rounded-full">About</span>
+        <h2 className="text-2xl font-semibold mt-4">To know more about me:</h2>
+      </div>
         <p className="text-lg mb-4 text-justify">
           I'm a passionate, self-proclaimed designer who specializes in UX Designing 
           and Web Development (React.js & Node.js). I am very enthusiastic about 

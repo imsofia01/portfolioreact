@@ -1,12 +1,12 @@
 const Skills = () => {
     return(
-        <section className=" m-14 text-center md:flex-row items-center md:p-12 md:mt-20"> 
+        <section className=" m-14 text-center md:flex-row items-center md:p-1 md:mt-20"> 
        
-          <h2 className="text-3xl font-bold text-gray-900">Skills</h2>
-
-          <p className="text-lg mb-14 text-center">
-          The skills, tools and technologies I am good at:
-          </p>
+       <div className="text-center mb-10">
+        <span className="bg-gray-200 px-3 py-1 text-[1.1rem] text-gray-600 rounded-full">Skills</span>
+        <h2 className="text-2xl font-semibold mt-4">The skills, tools and technologies I am good at:</h2>
+      </div>
+         
           <div className="text-lg text-justify flex">
             
             <div className="mt-20 flex flex-wrap md:flex gap-20 justify-between">

@@ -36,6 +36,8 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  
+
   return (
     <>
       <header className="dark:bg-gray-900 hover:shadow-slate-400 bg-white p-5 flex justify-between items-center shadow-md">

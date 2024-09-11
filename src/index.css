@@ -7,7 +7,16 @@ body.dark {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1c2332;
   color: white;
-  
+}
+
+header.dark {
+  background-color: #1f2937; /* Dark mode for navbar */
+  color: #f9fafb;
+}
+
+header.light {
+  background-color: #ffffff; /* Light mode for navbar */
+  color: #111827;
 }
 
 

@@ -46,9 +46,8 @@ const AboutMe = () => {
           Finally, some quick bits about me:
         </p>
         <ul className="list-disc list-inside text-lg text-justify">
-          <li>B.Tech in Computer Engineering</li>
           <li>Freelancer</li>
-          <li>Tech Geek</li>
+          <li>Front-end developer</li>
           <li>UX Designer</li>
         </ul>
         <p className="text-lg mt-4 text-justify">

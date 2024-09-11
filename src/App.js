@@ -171,15 +171,16 @@ function App() {
       <div id="about">
         <About />
       </div>
+      <div id="education">
+        <Education/>
+      </div>
       <div id="skills">
         <Skills />
       </div>
       <div id="contact">
         {/* Add Contact section here */}
       </div>
-      <div id="education">
-        <Education/>
-      </div>
+      
     </>
   );
 }

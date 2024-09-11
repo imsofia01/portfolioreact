@@ -3,57 +3,101 @@ import DarkMode from './DarkMode';
 
 const Education = () => {
   return (
-    <div className="bg-gray-100 p-10 dark:bg-gray-800">
+    <div className="p-10">
       <div className="text-center mb-10">
-        <span className="bg-gray-200 px-3 py-1 text-sm text-gray-600 rounded-full">Experience</span>
+        <span className="bg-gray-200 px-3 py-1 text-sm text-gray-600 rounded-full">Education</span>
         <h2 className="text-2xl font-semibold mt-4">Here is a quick summary of my most recent experiences:</h2>
       </div>
 
-      <div className="bg-white shadow-md rounded-lg p-6 flex items-center justify-between space-x-6 max-w-4xl mx-auto">
-      {/* Left side: Logo and Company name */}
-      <div className="flex items-center space-x-4">
-        <img
-          src="https://your-logo-url.com/wyvate-logo.png" // Replace with actual logo URL
-          alt="Wyvate logo"
-          className="w-16 h-16 object-contain"
-        />
-        <div>
-          <h3 className="text-lg font-semibold">Wyvate</h3>
-          <p className="text-sm font-bold text-gray-800">UX Designer</p>
+      {/* ELEMENTARY*/}
+      <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center dark:bg-gray-700">
+        <div className="flex flex-col md:flex-row items-center space-x-10">
+          {/* Company Logo */}
+          <div className="mb-4 md:mb-0 md:mr-4">
+            <img
+              src="assets/TNCES.jpg" // Replace with actual logo URL
+              alt="Wyvate logo"
+              className="w-32 h-32 rounded-lg"
+            />
+          </div>
+
+          {/* Experience Info */}
+          <div className="text-lg text-justify md:text-left mb-5">
+          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700 dark:text-gray-100">Elementary</h1>
+            <h3 className="text-lg mt-2 font-bold text-gray-700 dark:text-gray-100">Tabaco North Central School of Tabaco</h3>
+            
+          </div>
+        </div>
+        {/* Date */}
+        <div className="text-right mt-4 md:mt-0">
+          <p className="text-gray-700 dark:text-gray-100 font-bold">March 2013</p>
         </div>
       </div>
 
-      {/* Right side: Description and Date */}
-      <div className="flex flex-col justify-between">
-        <ul className="list-disc list-inside text-gray-700 space-y-1">
-          <li>Supported Design the Wyvate Admin and Vendor Panel.</li>
-          <li>Supported making the QR and Tape Design for the brand.</li>
-        </ul>
-        <p className="text-gray-500 text-sm">Sept 2023 - Present</p>
+       {/* HIGH SCHOOL */}
+       <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center dark:bg-gray-700 mt-10">
+        <div className="flex flex-col md:flex-row items-center space-x-10">
+          {/* Company Logo */}
+          <div className="mb-4 md:mb-0 md:mr-4">
+            <img
+              src="assets/CCS.jpg" // Replace with actual logo URL
+              alt="Wyvate logo"
+              className="w-32 h-32 rounded-lg"
+            />
+          </div>
+
+          {/* Experience Info */}
+          <div className="text-lg text-justify md:text-left">
+          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700 dark:text-gray-100">Secondary / Senior High School</h1>
+            <h3 className="text-lg mt-2 font-bold text-gray-700 dark:text-gray-100">Catholic Central School </h3>
+            <p className="text-gray-700 dark:text-gray-100 font-semibold">formerly: St. Louise de Marillac School of Tabaco</p>
+            
+          </div>
+        </div>
+        {/* Date */}
+        <div className="text-right md:mt-0">
+          <p className="text-gray-700 dark:text-gray-100 text-center font-bold">April 2018</p>
+        </div>
       </div>
+
+
+       {/* College */}
+       <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center dark:bg-gray-700 mt-10">
+        <div className="flex flex-col md:flex-row items-center space-x-10">
+          {/* Company Logo */}
+          <div className="mb-4 md:mb-0 md:mr-4">
+            <img
+              src="assets/Divine.jpg" // Replace with actual logo URL
+              alt="Wyvate logo"
+              className="w-32 h-32 rounded-lg"
+            />
+          </div>
+
+          {/* Experience Info */}
+          <div className="text-lg text-justify md:text-left">
+          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700 dark:text-gray-100">College</h1>
+            <h3 className="text-lg mt-2 font-bold text-gray-700 dark:text-gray-100">Divine Word College of Legazpi</h3>
+            <p className="text-gray-700 dark:text-gray-100">Bachelor of Science in Information Technology</p>
+            
+            
+          </div>
+        </div>
+        {/* Date */}
+        <div className="text-right mt-4 md:mt-0">
+          <p className="text-gray-700 dark:text-gray-100 font-bold">June 2024</p>
+        </div>
+      </div>
+
     </div>
 
-        {/* Sense Original Experience */}
-        <div className="bg-white p-6 rounded-lg shadow-md flex justify-between items-center">
-          <div className="flex items-center space-x-4">
-            {/* Company Logo */}
-            <div className="bg-black text-white p-3 rounded-lg">
-              <span className="text-lg font-semibold">S</span>
-            </div>
-            {/* Experience Info */}
-            <div>
-              <h3 className="text-lg font-bold">UX Designer</h3>
-              <p className="text-gray-600">Designed Website for Sense Original.</p>
-              <p className="text-gray-600">Designed a SO|PSIT application that was a collaboration with PSIT College.</p>
-              <p className="text-gray-600">Designed the CRM Panel, along with its user flow, wireframing, and prototyping.</p>
-            </div>
-          </div>
-          {/* Date */}
-          <div className="text-right">
-            <p className="text-gray-500">April 2023 - Oct 2024</p>
-          </div>
-        </div>
-      </div>
+    
+
+
+
+    
+
+    
+
     
   );
 };

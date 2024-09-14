@@ -35,7 +35,7 @@ const Education = () => {
       </div>
 
        {/* HIGH SCHOOL */}
-       <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center dark:bg-gray-700 mt-10">
+       <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center mt-10 dark:bg-gray-700">
         <div className="flex flex-col md:flex-row items-center space-x-10">
           {/* Company Logo */}
           <div className="mb-4 md:mb-0 md:mr-4">
@@ -84,7 +84,7 @@ const Education = () => {
         </div>
         {/* Date */}
         <div className="text-right mt-4 md:mt-0">
-          <p className="text-gray-700 dark:text-gray-100 font-bold">June 2024</p>
+          <p className="text-gray-700 dark:text-gray-800 font-bold">June 2024</p>
         </div>
       </div>
 

@@ -6,11 +6,11 @@ const Education = () => {
     <div className="p-10">
       <div className="text-center mb-10">
         <span className="bg-gray-200 px-3 py-1 text-sm text-gray-600 rounded-full">Education</span>
-        <h2 className="text-2xl font-semibold mt-4">Here is a quick summary of my most recent experiences:</h2>
+        <h2 className="text-2xl font-semibold mt-4">Here is the schools I attended:</h2>
       </div>
 
       {/* ELEMENTARY*/}
-      <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center dark:bg-gray-700">
+      <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center ">
         <div className="flex flex-col md:flex-row items-center space-x-10">
           {/* Company Logo */}
           <div className="mb-4 md:mb-0 md:mr-4">
@@ -35,7 +35,7 @@ const Education = () => {
       </div>
 
        {/* HIGH SCHOOL */}
-       <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center mt-10 dark:bg-gray-700">
+       <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center mt-10 ">
         <div className="flex flex-col md:flex-row items-center space-x-10">
           {/* Company Logo */}
           <div className="mb-4 md:mb-0 md:mr-4">
@@ -62,7 +62,7 @@ const Education = () => {
 
 
        {/* College */}
-       <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center dark:bg-gray-700 mt-10">
+       <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row justify-between items-center mt-10">
         <div className="flex flex-col md:flex-row items-center space-x-10">
           {/* Company Logo */}
           <div className="mb-4 md:mb-0 md:mr-4">
@@ -84,7 +84,7 @@ const Education = () => {
         </div>
         {/* Date */}
         <div className="text-right mt-4 md:mt-0">
-          <p className="text-gray-700 dark:text-gray-800 font-bold">June 2024</p>
+          <p className="text-gray-700 font-bold">June 2024</p>
         </div>
       </div>
 

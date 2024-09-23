@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <header className="dark:bg-gray-900 hover:shadow-slate-400 bg-white p-5 flex justify-between items-center shadow-md">
+      <header className=" hover:shadow-slate-400 bg-white p-5 flex justify-between items-center shadow-md">
         <div className="text-2xl font-bold text-gray-900 dark:text-white">
           <a href="/" className="flex items-center" onClick={() => scroll.scrollToTop()}>
             <span className="text-lg mr-2"> SOFIA </span>

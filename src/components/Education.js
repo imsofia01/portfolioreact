@@ -23,14 +23,14 @@ const Education = () => {
 
           {/* Experience Info */}
           <div className="text-lg text-justify md:text-left mb-5">
-          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700 dark:text-gray-100">Elementary</h1>
-            <h3 className="text-lg mt-2 font-bold text-gray-700 dark:text-gray-100">Tabaco North Central School of Tabaco</h3>
+          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700 ">Elementary</h1>
+            <h3 className="text-lg mt-2 font-bold text-gray-700 ">Tabaco North Central School of Tabaco</h3>
             
           </div>
         </div>
         {/* Date */}
         <div className="text-right mt-4 md:mt-0">
-          <p className="text-gray-700 dark:text-gray-100 font-bold">March 2013</p>
+          <p className="text-gray-700  font-bold">March 2013</p>
         </div>
       </div>
 
@@ -48,15 +48,15 @@ const Education = () => {
 
           {/* Experience Info */}
           <div className="text-lg text-justify md:text-left">
-          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700 dark:text-gray-100">Secondary / Senior High School</h1>
-            <h3 className="text-lg mt-2 font-bold text-gray-700 dark:text-gray-100">Catholic Central School </h3>
-            <p className="text-gray-700 dark:text-gray-100 font-semibold">formerly: St. Louise de Marillac School of Tabaco</p>
+          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700 ">Secondary / Senior High School</h1>
+            <h3 className="text-lg mt-2 font-bold text-gray-700 ">Catholic Central School </h3>
+            <p className="text-gray-700  font-semibold">formerly: St. Louise de Marillac School of Tabaco</p>
             
           </div>
         </div>
         {/* Date */}
         <div className="text-right md:mt-0">
-          <p className="text-gray-700 dark:text-gray-100 text-center font-bold">April 2018</p>
+          <p className="text-gray-700 text-center font-bold">April 2018</p>
         </div>
       </div>
 
@@ -75,9 +75,9 @@ const Education = () => {
 
           {/* Experience Info */}
           <div className="text-lg text-justify md:text-left">
-          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700 dark:text-gray-100">College</h1>
-            <h3 className="text-lg mt-2 font-bold text-gray-700 dark:text-gray-100">Divine Word College of Legazpi</h3>
-            <p className="text-gray-700 dark:text-gray-100">Bachelor of Science in Information Technology</p>
+          <h1 className="text-[1.3rem] mt-2 font-bold text-gray-700">College</h1>
+            <h3 className="text-lg mt-2 font-bold text-gray-700 ">Divine Word College of Legazpi</h3>
+            <p className="text-gray-700 ">Bachelor of Science in Information Technology</p>
             
             
           </div>

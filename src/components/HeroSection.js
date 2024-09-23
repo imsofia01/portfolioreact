@@ -1,40 +1,37 @@
-
-import LocationIcon from "./LocationIcon";
 import { useState } from "react";
-import ContactModal from "./ContactModal";
-
-
-
+import MessageModal from "./MessageModal"; // Import the modal component
+import LocationIcon from "./LocationIcon"; // Import your location icon component
 
 const HeroSection = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
 
-
     return (
         <div className="w-full h-screen relative">
-        <div class="w-full h-full xl:px-16 xs:px-8 flex gap-4 justify-center items-center">
-        <div class="w-full m-10">
-        <h1 class="sm:text-5xl font-bold xs:text-md ">Hello, I'm Sofia
-                </h1>
-   
-                <p className="text-justify mt-4 sm:text-lg xs:text-md capitalize dark:text-gray-500">I'm a UX Designer and Web Developer (React.js & Node.js) with a focus on creating exceptional digital experiences that are user-centric, accessible, usable, visually appealing, and responsive. I have been  designing web and android applications for over a year and developing web applications for over a year now, I have a deep passion for designing and researching about user psychology.</p>
-                <button
-                        className="p-2 px-6 mt-6 bg-gray-900  text-white rounded-full "
+            <div className="w-full h-full xl:px-16 xs:px-8 flex gap-4 justify-center items-center">
+                <div className="w-full m-10">
+                    <h1 className="sm:text-5xl font-bold xs:text-md">
+                        Hello, I'm Sofia
+                    </h1>
+                    <p className="text-justify mt-4 sm:text-lg xs:text-md capitalize dark:text-gray-500">
+                        I'm a UX Designer and Web Developer (React.js & Node.js) with a focus on creating exceptional digital experiences that are user-centric, accessible, usable, visually appealing, and responsive. I have been designing web and android applications for over a year and developing web applications for over a year now, I have a deep passion for designing and researching about user psychology.
+                    </p>
+                    <button
+                        className="p-2 px-6 mt-6 bg-gray-900 text-white rounded-full hover:bg-gray-700"
+                        onClick={openModal}
                     >
                         Hire Me
                     </button>
-                    
-               <div className="mt-2 stroke-gray-600 py-5 w-10 h-20 flex ">  
-                <LocationIcon/> 
-                
-                   </div>
-                 
 
-               <div className="mt-5 ">
+                    {/* Location Icon */}
+                    <div className="mt-2 stroke-gray-600 py-5 w-10 h-20 flex">
+                        <LocationIcon />
+                    </div>
+
+                    {/* Social Media Links */}
+                    <div className="mt-5 ">
                <button className="flex space-x-5">
                 {/* github icon */}
                 <a href="https://github.com/imsofia01">
@@ -62,11 +59,20 @@ const HeroSection = () => {
                </a>
                </button>
                </div>
-        </div>
-        <div className=" m-16 md:-mt-10 xl:max-w-[55%] md:max-w-[30%] h-fit hidden md:block">
-                <img className="rounded-lg mr-60 w-80 h-1/4 md:inset-10" src="/assets/Picture.jpg" alt="My Pic" />
+                </div>
+
+                {/* Profile Picture */}
+                <div className="m-16 md:-mt-10 xl:max-w-[55%] md:max-w-[30%] h-fit hidden md:block">
+                    <img
+                        className="rounded-lg mr-60 w-80 h-1/4 md:inset-10"
+                        src="/assets/Picture.jpg"
+                        alt="My Pic"
+                    />
+                </div>
             </div>
-        </div>
+
+            {/* Message Modal */}
+            <MessageModal isOpen={isModalOpen} closeModal={closeModal} />
         </div>
     );
 };

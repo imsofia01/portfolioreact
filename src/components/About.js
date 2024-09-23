@@ -34,8 +34,7 @@ const AboutMe = () => {
         </p>
         <p className="text-lg mb-4 text-justify">
           I'm trying to learn and evolve every day by taking up new challenges 
-          and learning new things on a day-to-day basis. I love learning about 
-          user psychology and creating a valuable user experience for all types 
+          and learning new things on a day-to-day basis. I love learning and creating a valuable user experience for all types 
           of users.
         </p>
         <p className="text-lg mb-4 text-justify">

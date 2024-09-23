@@ -24,7 +24,7 @@ const MessageModal = ({ isOpen, closeModal }) => {
                 <div class="mb-4">
                 <label for="message" className="block text-gray-800 text-sm font-semibold mb-2">Message</label>
                 
-               <textarea className="w-full px-4 py-2 border rounded-lg  focus:ring-2 focus:ring-gray-800" placeholder="Send message" label="message"/>
+                <textarea className="w-full px-4 py-2 border rounded-lg  focus:ring-2 focus:ring-gray-800" placeholder="Send message" label="message"/>
                 </div>
 
      

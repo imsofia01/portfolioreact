@@ -3,7 +3,7 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'; // I
 import './App.css';
 import './index.css';
 import DownloadButton from './components/DownloadButton';
-import DarkMode from './components/DarkMode';
+
 import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Skills from './components/Skills';

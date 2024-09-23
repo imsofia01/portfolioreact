@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <header className=" hover:shadow-slate-400 bg-white p-5 flex justify-between items-center shadow-md">
-        <div className="text-2xl font-bold text-gray-900 ">
+        <div className="text-2xl font-bold text-gray-950 ">
           <a href="/" className="flex items-center" onClick={() => scroll.scrollToTop()}>
             <span className="text-lg mr-2"> SOFIA </span>
           </a>
@@ -95,7 +95,7 @@ function App() {
           }  md:flex md:items-center md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:p-0 p-5 md:shadow-none shadow-lg z-10`}
         >
           <nav>
-            <ul className="md:flex items-center text-base text-gray-800 ">
+            <ul className="md:flex items-center text-base text-gray-900 ">
               <li>
                 <ScrollLink
                   className="md:p-4 py-2 block cursor-pointer"

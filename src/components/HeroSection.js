@@ -12,14 +12,14 @@ const HeroSection = () => {
         <div className="w-full h-screen relative">
             <div className="w-full h-full xl:px-16 xs:px-8 flex gap-4 justify-center items-center">
                 <div className="w-full m-10">
-                    <h1 className="sm:text-5xl font-bold xs:text-md">
+                    <h1 className="sm:text-5xl font-bold xs:text-md text-gray-950">
                         Hello, I'm Sofia
                     </h1>
                     <p className="text-justify mt-4 sm:text-lg xs:text-md capitalize dark:text-gray-500">
                         I'm a UX Designer and Web Developer (React.js & Node.js) with a focus on creating exceptional digital experiences that are user-centric, accessible, usable, visually appealing, and responsive. I have been designing web and android applications for over a year and developing web applications for over a year now, I have a deep passion for designing and researching about user psychology.
                     </p>
                     <button
-                        className="p-2 px-6 mt-6 bg-gray-900 text-white rounded-full hover:bg-gray-700"
+                        className="p-2 px-6 mt-6 bg-gray-950 text-white rounded-full hover:bg-gray-700"
                         onClick={openModal}
                     >
                         Hire Me

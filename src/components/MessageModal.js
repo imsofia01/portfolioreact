@@ -7,7 +7,7 @@ const MessageModal = ({ isOpen, closeModal }) => {
 
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-            <div className="bg-white p-8 rounded-lg w-90 shadow-lg">
+            <div className="bg-white p-8 rounded-lg w-80 shadow-lg">
                 <h2 className="text-2xl font-semibold mb-4 text-center">Send me a message and hire me</h2>
                 <p className="text-gray-700 mb-6 text-center">
                     Thank you for showing interest in my work. Reach out to discuss your project or any inquiries.
@@ -31,14 +31,14 @@ const MessageModal = ({ isOpen, closeModal }) => {
 
                 <div className="flex justify-center gap-10">
                 <button
-                        className="bg-blue-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700"
+                        className="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700"
                         onClick={closeModal}
                     >
                         Close
                     </button>
 
                     <button
-                        className="bg-blue-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700"
+                        className="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700"
                         onClick={closeModal}
                     >
                         Send Message

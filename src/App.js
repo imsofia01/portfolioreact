@@ -8,6 +8,7 @@ import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -170,6 +171,7 @@ function App() {
       <div id="contact">
         {/* Add Contact section here */}
       </div>
+      <Footer/>
       
     </>
   );

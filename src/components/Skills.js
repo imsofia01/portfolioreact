@@ -7,7 +7,7 @@ const Skills = () => {
         <h2 className="text-2xl font-semibold mt-4">The skills, tools and technologies I am good at:</h2>
       </div>
          
-          <div className="text-lg text-justify flex">
+          <div className="text-lg text-justify flex cursor-pointer">
             
             <div className="mt-20 flex flex-wrap md:flex gap-20 justify-between">
               {/* html icon */}

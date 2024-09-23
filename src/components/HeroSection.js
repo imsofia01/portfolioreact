@@ -1,8 +1,19 @@
-import DarkMode from "./DarkMode";
+
 import LocationIcon from "./LocationIcon";
+import { useState } from "react";
+import ContactModal from "./ContactModal";
+
+
 
 
 const HeroSection = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
+
+
     return (
         <div className="w-full h-screen relative">
         <div class="w-full h-full xl:px-16 xs:px-8 flex gap-4 justify-center items-center">
@@ -11,9 +22,15 @@ const HeroSection = () => {
                 </h1>
    
                 <p className="text-justify mt-4 sm:text-lg xs:text-md capitalize dark:text-gray-500">I'm a UX Designer and Web Developer (React.js & Node.js) with a focus on creating exceptional digital experiences that are user-centric, accessible, usable, visually appealing, and responsive. I have been  designing web and android applications for over a year and developing web applications for over a year now, I have a deep passion for designing and researching about user psychology.</p>
-                <button className="p-2 px-6 mt-6 bg-gray-900 dark:bg-slate-200 text-white rounded-full dark:text-gray-900">Hire Me</button>
+                <button
+                        className="p-2 px-6 mt-6 bg-gray-900 dark:bg-slate-200 text-white rounded-full dark:text-gray-900"
+                    >
+                        Hire Me
+                    </button>
+                    
                <div className="mt-2 stroke-gray-600 py-5 w-10 h-20 flex ">  
                 <LocationIcon/> 
+                
                    </div>
                  
 

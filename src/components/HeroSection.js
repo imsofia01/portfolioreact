@@ -23,7 +23,7 @@ const HeroSection = () => {
    
                 <p className="text-justify mt-4 sm:text-lg xs:text-md capitalize dark:text-gray-500">I'm a UX Designer and Web Developer (React.js & Node.js) with a focus on creating exceptional digital experiences that are user-centric, accessible, usable, visually appealing, and responsive. I have been  designing web and android applications for over a year and developing web applications for over a year now, I have a deep passion for designing and researching about user psychology.</p>
                 <button
-                        className="p-2 px-6 mt-6 bg-gray-900 dark:bg-slate-200 text-white rounded-full "
+                        className="p-2 px-6 mt-6 bg-gray-900  text-white rounded-full "
                     >
                         Hire Me
                     </button>

@@ -51,7 +51,7 @@ function App() {
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
           <button
-            className="text-gray-900 p-2 rounded-md focus:outline-none dark:text-gray-500"
+            className="text-gray-900 p-2 rounded-md focus:outline-none "
             onClick={handleMenuToggle}
           >
             {isMenuOpen ? (
@@ -92,7 +92,7 @@ function App() {
         <div
           className={`${
             isMenuOpen ? 'block' : 'hidden'
-          } dark:bg-gray-900 md:flex md:items-center md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:p-0 p-5 md:shadow-none shadow-lg z-10`}
+          }md:flex md:items-center md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:p-0 p-5 md:shadow-none shadow-lg z-10`}
         >
           <nav>
             <ul className="md:flex items-center text-base text-gray-800 dark:text-white">

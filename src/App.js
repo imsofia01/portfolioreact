@@ -3,7 +3,7 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'; // I
 import './App.css';
 import './index.css';
 import DownloadButton from './components/DownloadButton';
-
+import DarkMode from './components/DarkMode';
 import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <header className=" hover:shadow-slate-400 bg-white p-5 flex justify-between items-center shadow-md">
-        <div className="text-2xl font-bold text-gray-900 dark:text-white">
+        <div className="text-2xl font-bold text-gray-900 ">
           <a href="/" className="flex items-center" onClick={() => scroll.scrollToTop()}>
             <span className="text-lg mr-2"> SOFIA </span>
           </a>
@@ -51,7 +51,7 @@ function App() {
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
           <button
-            className="text-gray-900 p-2 rounded-md focus:outline-none "
+            className="text-gray-900 p-2 rounded-md focus:outline-none dark:text-gray-500"
             onClick={handleMenuToggle}
           >
             {isMenuOpen ? (
@@ -92,10 +92,10 @@ function App() {
         <div
           className={`${
             isMenuOpen ? 'block' : 'hidden'
-          }md:flex md:items-center md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:p-0 p-5 md:shadow-none shadow-lg z-10`}
+          }  md:flex md:items-center md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:p-0 p-5 md:shadow-none shadow-lg z-10`}
         >
           <nav>
-            <ul className="md:flex items-center text-base text-gray-800 dark:text-white">
+            <ul className="md:flex items-center text-base text-gray-800 ">
               <li>
                 <ScrollLink
                   className="md:p-4 py-2 block cursor-pointer"

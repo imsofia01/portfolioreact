@@ -16,7 +16,7 @@ const DownloadButton = () => {
 
   return (
     <button onClick={handleDownload}>
-     <a class="bg-gray-900 dark:bg-slate-200 dark:text-gray-800 dark:font-semibold text-white rounded-lg px-5 py-2 text-sm" href="/assets/CV-KO.pdf" download="CV-KO.pdf" >Download CV</a>
+     <a class="bg-gray-900  text-white rounded-lg px-5 py-2 text-sm" href="/assets/CV-KO.pdf" download="CV-KO.pdf" >Download CV</a>
     </button>
   );
 };

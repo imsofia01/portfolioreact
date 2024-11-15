@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useEffect, useState } from 'react';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'; // Import react-scroll
 import './App.css';
 import './index.css';
@@ -9,6 +9,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Footer from './components/Footer';
+
 
 
 function App() {
@@ -169,7 +170,7 @@ function App() {
         <Skills />
       </div>
       <div id="contact">
-        {/* Add Contact section here */}
+     
       </div>
       <Footer/>
       

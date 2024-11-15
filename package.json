@@ -10,6 +10,7 @@
     "@capacitor/keyboard": "6.0.2",
     "@capacitor/status-bar": "6.0.1",
     "@emailjs/browser": "^4.4.1",
+    "@heroicons/react": "^2.1.5",
     "@material-tailwind/react": "^2.1.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
